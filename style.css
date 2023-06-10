@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(197, 204, 206);
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*top navbar settings*/
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-bottom: solid rgb(238, 238, 238) 2px;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#nav_right {
+    float: right;
+    margin: 0;
+}
+
+#logo_name {
+    float: left;
+    font-family: Arial, sans-serif;
+}
+
+#red_img {
+    width: 60px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_name b {
+    display: inline-block;
+}
+
+#search_bar {
+    border-radius: 20px;
+    border: 5px;
+    background-color: rgb(232, 232, 232);
+    height: 40px;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    font-family: FontAwesome;
+}
+
+#log_in_button {
+    background-color: #ff4500;
+    border-radius: 20px;
+    border: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+#get_app {
+    border-radius: 20px;
+    border: 5px;
+    padding: 10px 20px;
+}
+
+#profile_icon #person {
+    margin: 0;
+    width: 40px;
+    padding-right: 0px;
+    font-size: 30px;
+
+}
+
+#profile_icon #chevI {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+/*Side navbar*/
+#left_nav {
+    margin: 0;
+    padding: 10px;
+    width: 18%;
+    background-color: white;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    text-align: left;
+}
+
+.chevI {
+    float: right;
+    padding-right: 3%;
+}
+
+.chevI:hover {
+    transform: rotate(180deg);
+    margin-right: 5%;
+}
+
+#left_nav button,
+#left_nav #feed_txt {
+    width: 100%;
+    background-color: transparent;
+    border: transparent;
+    text-align: left;
+    margin: 5%;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+    font-weight: 50;
+    list-style-type: none;
+}
+
+#left_nav #feed_txt,
+#left_nav #topics {
+    font-size: 10px;
+    padding-left: 5px;
+    color: rgb(117, 117, 117)
+}
+
+button {
+    cursor: pointer;
+}
+
+#left_nav li i {
+    width: 20px;
+}
+
+#search_bar::placeholder {
+    width: 200px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+
+/*
+FEED SECTION
+*/
+
+#feed-section {
+    background-color: antiquewhite;
+    margin-left: 28%;
+    width: 60%;
+}
+
+#trending_today {
+    background-color: #ff4500;
+}
+
+#trending_today p,
+#feed p {
+    text-align: left;
+}
+
+#feed {
+    background-color: red;
+    width: 70%;
+    margin: 0;
+}
+
+#feed ul {
+    display: inline;
+}
+
+#filter-box {
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+
+}
+
+#filter-box button {
+    border-radius: 20px;
+    padding-left: 0px;
+    background-color: azure;
+    height: 30px;
+}
+
+#filtering li {
+    display: inline;
+}
+
+#filtering button {
+    border-radius: 20px;
+    border: 2px;
+    padding: 10px;
+    margin: 2px;
+}

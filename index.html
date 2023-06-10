@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <ul id="navbar">
+
+        <li id="logo_name"><i class="fa fa-reddit" style="font-size:40px;color:red"></i><img id="red_img" src="red.svg"
+                style="width: 50px;" alt=""> </li>
+
+        <li id="search"><input id="search_bar" type="text" placeholder="&#xF002; Search Reddit"></li>
+        <span id="nav_right">
+            <li><button id="get_app">Get App</button> </li>
+            <li><button id="log_in_button">Log In</button></li>
+
+            <li id="profile_icon"><i class='fa fa-user' id="person"></i>
+                <i id="chevI" class='fa fa-chevron-down '></i>
+            </li>
+
+
+        </span>
+    </ul>
+
+
+    <ul id="left_nav">
+        <li id="feed_txt">FEEDS</li>
+
+        <li><button id="home"><i class="fa fa-home"></i> Home</button> </li>
+        <li><button id="popular"><i class="fa fa-arrow-circle-o-up"></i> Popular</button></li>
+
+        <li><button id="topics">TOPICS</button> </li>
+
+        <li><button id="gaming"><i class="fa fa-gamepad"></i> Gaming <i id="chevI"
+                    class='fa fa-chevron-down chevI'></i></button> </li>
+        <li><button id="sports"><i class="fa fa-futbol-o"></i> Sports<i id="chevI"
+                    class='fa fa-chevron-down chevI'></i></button></li>
+        <li><button id="business"><i class="fa fa-bar-chart"></i> business<i id="chevI"
+                    class='fa fa-chevron-down chevI'></i></button></li>
+        <li><button id="crypto"><i class="fa fa-bitcoin"></i> Crypto<i id="chevI"
+                    class='fa fa-chevron-down chevI'></i></button></li>
+        <li><button id="television"><i class="fa fa-television"></i> Television<i id="chevI"
+                    class='fa fa-chevron-down chevI'></i></button></li>
+        <li><button id="celebrity"><i class="fa fa-star-o"></i> Celebrity<i id="chevI"
+                    class='fa fa-chevron-down chevI'></i></button></li>
+    </ul>
+
+    <div id="feed-section">
+        <div id="trending_today">
+            <p>Trending Today</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div id="feed">
+            <p>Popular Posts</p>
+            <ul>
+
+                <ul id="filtering">
+                    <li><button>Hot</button></li>
+                    <li><button>Everywhere</button></li>
+                    <li><button>New</button></li>
+                    <li><button>Top</button></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js" async defer></script>
+
+</body>
+
+</html>
