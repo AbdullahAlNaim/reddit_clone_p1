@@ -2,7 +2,6 @@ body {
     background-color: rgb(197, 204, 206);
     margin: 0;
     font-family: sans-serif;
-    text-align: center;
 }
 
 /*top navbar settings*/
@@ -14,6 +13,7 @@ body {
     padding-bottom: 5px;
     background-color: white;
     border-bottom: solid rgb(238, 238, 238) 2px;
+    text-align: center;
 }
 
 #navbar li {
@@ -48,8 +48,8 @@ body {
     height: 40px;
     width: 40%;
     padding: 0;
-    margin: 0;
     font-family: FontAwesome;
+
 }
 
 #log_in_button {
@@ -188,4 +188,87 @@ FEED SECTION
     border: 2px;
     padding: 10px;
     margin: 2px;
+}
+
+#inner-feed {
+    padding-left: 0;
+}
+
+#filtering {
+    margin: 0;
+    padding-left: 3%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+    font-style: bold;
+}
+
+
+.first-two {
+    background-color: rgb(218, 227, 251);
+    color: rgb(112, 136, 209);
+}
+
+.last-three {
+    background-color: transparent;
+}
+
+#apost {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+
+/*POST MODEL*/
+
+#post-model {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#post-model li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#voting #inner-post-mod {
+    background-color: rgb(218, 227, 251);
+    padding: 0;
+    margin-right: 0;
+    width: 40px;
+    list-style-type: none;
+}
+
+#first-post ul li {
+    display: inline;
+}
+
+#first-post {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#info-post {
+    margin: 0;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#voting {
+    background-color: rgb(115, 231, 115);
+    width: 40px;
+    display: inline-block;
+    padding-bottom: 40%;
+    padding-top: 50px;
+}
+
+#voting #inner-post-mod {
+    text-align: center;
 }
